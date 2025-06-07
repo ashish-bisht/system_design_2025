@@ -435,17 +435,6 @@ Replication and FastAPI impact **memory**, **CPU**, **disk**, and **network**:
 
 ---
 
-## References
 
-- **PostgreSQL 14 Documentation**: [Replication](https://www.postgresql.org/docs/14/warm-standby.html)
-- **FastAPI Documentation**: [fastapi.tiangolo.com](https://fastapi.tiangolo.com/)
-- **psycopg3 Documentation**: [psycopg.org](https://www.psycopg.org/psycopg3/docs)
-- **Python Logging**: [docs.python.org/3/library/logging.html](https://docs.python.org/3/library/logging.html)
-- **YouTube**: “PostgreSQL Replication” (Hussein Nasser), “FastAPI Tutorial” (Tech With Tim)
-- **Blogs**: [Percona’s PostgreSQL Guides](https://www.percona.com/blog/postgresql-replication/), [Real Python FastAPI](https://realpython.com/fastapi/)
-
----
-
-## Conclusion
 
 This setup demonstrates a robust PostgreSQL replication system with FastAPI, leveraging your Mac M3 Pro’s capabilities. You’ve learned to configure asynchronous replication, build a FastAPI app with `psycopg 3.2.9`, and implement detailed logging. Use this article to review, troubleshoot, and extend your prototype with Redis, Cassandra, or advanced features. Happy learning!
